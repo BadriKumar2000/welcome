@@ -1,10 +1,6 @@
-
+import Welcome  from './components/Welcome';
 import './App.css';
 
-const App = ()=>{
-  return(
-    <p>Hello User!</p>
-  )
-}
+const App = ()=> <Welcome/>
 
 export default App;
